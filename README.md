@@ -2,7 +2,8 @@
 
 Website voor Interieur &amp; Schoonmaakbedrijf Lydia van der Vegt uit Zoetermeer:
 schoonmaak van bedrijfspanden, centrale hallen, centrale ruimtes en portieken in
-Zoetermeer en omstreken.
+Zoetermeer en omstreken, en het schoon opleveren van woningen en panden bij een
+verhuizing.
 
 Er zit geen bouwstap in. Open `index.html` in je browser om de site te bekijken.
 
@@ -72,6 +73,12 @@ Twee dingen om echt even te controleren:
 De privacyverklaring beschrijft de situatie zoals de site nu werkt: geen cookies, geen
 statistieken, hosting bij GitHub Pages en e-mail via iCloud. Verandert een van die
 dingen, dan moet die tekst mee.
+
+## Door Lydia te controleren
+
+De plaatsen in het rijtje bij "Over mij" zijn een aanname, geen opgave van haar. Den Haag
+is er op haar verzoek afgehaald; Leidschendam-Voorburg, Pijnacker-Nootdorp en Bleiswijk
+staan er nog en zijn nooit bevestigd. Vraag haar even waar ze wel en niet komt.
 
 ## Nog te doen
 
