@@ -85,7 +85,8 @@ staan er nog en zijn nooit bevestigd. Vraag haar even waar ze wel en niet komt.
 
 ## Nog te doen
 
-- Het echte logo in de pagina's zetten. Het staat in `merk/`, maar de site gebruikt nog
-  de SVG-nabouw van het beeldmerk. Er is een lichte variant nodig voor de donkere delen.
+- Niets meer met het logo: de aangeleverde bestanden in `merk/` staan hier alleen als
+  opslag. De site blijft de SVG-nabouw van het beeldmerk gebruiken, dat is een bewuste
+  keuze en geen openstaand punt.
 - Contactformulier: nu een `mailto:`-link. Wil Lydia een net formulier, dan kan dat via
   Formspree of Web3Forms zonder eigen server. GitHub Pages kan zelf geen post verwerken.

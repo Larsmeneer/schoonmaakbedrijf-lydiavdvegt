@@ -1,6 +1,6 @@
 # Merkbestanden
 
-Losse iconen, niet gebruikt door de website zelf. Die heeft zijn eigen `favicon.svg`
+Opslag van merkmateriaal. Niets hiervan wordt door de website gebruikt. Die heeft zijn eigen `favicon.svg`
 en `apple-touch-icon.png` in de hoofdmap.
 
 | Bestand | Waarvoor |
@@ -44,5 +44,6 @@ achtergrond. De JPG staat in CMYK, dat is drukwerkkleur; die geeft op een beelds
 afwijkende kleuren en is hier dus niet de juiste keuze.
 
 Let op bij gebruik op een donkere achtergrond: de bedrijfsnaam in het logo is
-donkerblauw en valt dan weg. Voor de donkere footer en het donkere thema van de site is
-een variant met witte letters nodig.
+donkerblauw en valt dan weg. Wie het logo ooit op donker wil gebruiken, heeft een
+variant met witte letters nodig. Voor de site is dat niet aan de orde, die gebruikt
+bewust de SVG-nabouw van het beeldmerk.
