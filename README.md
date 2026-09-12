@@ -6,11 +6,15 @@ Zoetermeer en omstreken.
 
 Er zit geen bouwstap in. Open `index.html` in je browser om de site te bekijken.
 
+De twee tekstpagina's staan bewust in een eigen map met een `index.html` erin, zodat de
+URL `/voorwaarden/` is en niet `/voorwaarden.html`. Bekijk je ze lokaal via het
+bestandssysteem, open dan `voorwaarden/index.html` rechtstreeks.
+
 | Bestand | Wat het is |
 | --- | --- |
 | `index.html` | de startpagina |
-| `voorwaarden.html` | algemene voorwaarden |
-| `privacy.html` | privacyverklaring |
+| `voorwaarden/index.html` | algemene voorwaarden, te bereiken als `/voorwaarden/` |
+| `privacy/index.html` | privacyverklaring, te bereiken als `/privacy/` |
 | `stijl.css` | de opmaak van alle drie de pagina's |
 | `script.js` | licht/donker, mobiel menu, in beeld schuiven |
 | `favicon.svg` | het tabblad-icoon |
