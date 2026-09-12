@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Interieur &amp; Schoonmaak Lydia van der Vegt — Schoonmaak van bedrijfspanden en centrale ruimtes</title>
+<title>Interieur &amp; Schoonmaak Lydia van der Vegt | Schoonmaak van bedrijfspanden en centrale ruimtes</title>
 <meta name="description" content="Interieur &amp; Schoonmaak Lydia van der Vegt uit Zoetermeer verzorgt de schoonmaak van bedrijfspanden, centrale hallen, centrale ruimtes en portieken. Eigen schoonmaakmiddelen en eigen apparatuur." />
 <meta name="theme-color" content="#0F1D26" />
 <meta property="og:title" content="Interieur &amp; Schoonmaak Lydia van der Vegt" />
@@ -229,16 +229,21 @@ section{padding:84px 0}
 
 /* Contact */
 .contact{background:var(--paper-2)}
-.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+.contact .wrap{max-width:1280px}
+.contact-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:60px}
 @media (max-width:900px){.contact-grid{grid-template-columns:1fr;gap:34px}}
-.gegevens{list-style:none;margin:26px 0 0;padding:0}
-.gegevens li{display:flex;gap:14px;align-items:flex-start;padding:15px 0;border-top:1px solid var(--line)}
-.gegevens li:first-child{border-top:0}
-.gegevens .gico{width:38px;height:38px;border-radius:11px;background:var(--accent-soft);color:var(--accent-deep);
+.contact .lead{max-width:62ch}
+.gegevens{list-style:none;margin:30px 0 0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:1080px) and (min-width:901px){.gegevens{grid-template-columns:1fr}}
+@media (max-width:600px){.gegevens{grid-template-columns:1fr}}
+.gegevens li{display:flex;gap:14px;align-items:center;padding:16px 18px;background:var(--card);
+  border:1px solid var(--line);border-radius:12px;min-width:0}
+.gegevens .gico{width:40px;height:40px;border-radius:11px;background:var(--accent-soft);color:var(--accent-deep);
   display:flex;align-items:center;justify-content:center;flex:none}
-.gegevens .gico svg{width:18px;height:18px}
-.gegevens .lbl{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-soft)}
-.gegevens .val{font-size:16.5px;font-weight:600}
+.gegevens .gico svg{width:19px;height:19px}
+.gegevens .tekst{min-width:0}
+.gegevens .lbl{font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-soft);display:block}
+.gegevens .val{font-size:16.5px;font-weight:600;display:block;overflow-wrap:anywhere}
 .gegevens .val a{text-decoration:none}
 .gegevens .val a:hover{color:var(--accent-deep)}
 form{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow)}
@@ -271,7 +276,72 @@ form{background:var(--card);border:1px solid var(--line);border-radius:var(--rad
 .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease, transform .6s ease}
 .reveal.in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
+
+/* ==========================================================
+   Mobiel. Deze blokken staan bewust onderaan, zodat ze de
+   regels hierboven overschrijven en niet andersom.
+   ========================================================== */
+html,body{overflow-x:hidden;max-width:100%}
+a[href^="tel:"],a[href^="mailto:"]{overflow-wrap:anywhere}
+
+@media (max-width:760px){
+  body{font-size:16px}
+  section{padding:52px 0}
+  .wrap{padding:0 20px}
+  .lead{font-size:17.5px}
+  .hero{padding:40px 0 52px}
+  .hero-actions .btn{flex:1 1 auto;justify-content:center}
+  .hero-meta{gap:18px;display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr))}
+  .hero-meta .m b{font-size:19px}
+  .beeld{padding:26px 22px;border-radius:18px}
+  .beeld .groot{width:104px;height:104px}
+  .sec-head{margin-bottom:32px}
+  .card{padding:22px 20px}
+  .waarom-grid,.over-grid,.contact-grid{gap:30px}
+  .portret{padding:26px 22px}
+  .portret .groot{width:96px;height:96px}
+  form{padding:22px 20px}
+  .gegevens li{padding:14px 16px}
+  .footer{padding:44px 0 26px}
+}
+
+@media (max-width:480px){
+  .wrap{padding:0 16px}
+  .nav{height:68px;gap:12px}
+  .nav-links{top:68px}
+  .brand .mark{width:34px;height:34px}
+  .brand .naam .b1{font-size:10.5px;letter-spacing:.02em}
+  .brand .naam .b2{font-size:14px}
+  .theme-toggle,.menu-btn{width:42px;height:42px}
+  .hero h1{font-size:32px}
+  .hero-actions{gap:10px}
+  .hero-actions .btn,.waarom-grid .btn{width:100%;justify-content:center}
+  .eyebrow{font-size:11.5px;letter-spacing:.14em}
+  .gebied span{font-size:13.5px;padding:6px 13px}
+  .footer .slot{flex-direction:column;gap:6px}
+}
+
+/* Hele smalle toestellen (vanaf 320px): de merknaam mag krimpen,
+   zodat de menuknop niet buiten beeld valt. */
+@media (max-width:400px){
+  .nav{gap:8px}
+  .brand{flex:0 1 auto;min-width:0;gap:9px}
+  .brand .naam{min-width:0}
+  .brand .naam .b1{font-size:9.5px}
+  .brand .naam .b2{font-size:13px}
+  .brand .naam .b1,.brand .naam .b2{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .nav-cta{margin-left:auto;flex:none}
+  .theme-toggle,.menu-btn{width:38px;height:38px}
+}
+
+/* Landschapsmodus op een telefoon: het sticky menu mag niet
+   het halve scherm opeten. */
+@media (max-height:520px) and (orientation:landscape){
+  .header{position:static}
+  .nav-links{top:auto}
+}
 </style>
+<noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
 </head>
 <body>
 
@@ -337,7 +407,7 @@ form{background:var(--card);border:1px solid var(--line);border-radius:var(--rad
     <div class="reveal">
       <span class="eyebrow">Schoonmaak &amp; interieurverzorging · Zoetermeer</span>
       <h1>Een pand dat <em>klopt</em> vanaf de voordeur.</h1>
-      <p class="lead">Ik verzorg de schoonmaak van bedrijfspanden, centrale hallen, centrale ruimtes en portieken. Met eigen schoonmaakmiddelen en eigen apparatuur — u hoeft niets klaar te zetten.</p>
+      <p class="lead">Ik verzorg de schoonmaak van bedrijfspanden, centrale hallen, centrale ruimtes en portieken. Met eigen schoonmaakmiddelen en eigen apparatuur. U hoeft niets klaar te zetten.</p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="#contact">Vraag een offerte aan</a>
         <a class="btn btn-ghost" href="#werk">Bekijk de werkzaamheden</a>
@@ -402,7 +472,7 @@ form{background:var(--card);border:1px solid var(--line);border-radius:var(--rad
       <div class="card reveal">
         <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 10v10"/></svg></div>
         <h3>Centrale ruimtes</h3>
-        <p>Gedeelde ruimtes, gangen, liften en bergingen. Ruimtes van iedereen, en dus van niemand — daar let ik juist op.</p>
+        <p>Gedeelde ruimtes, gangen, liften en bergingen. Ruimtes van iedereen, en dus van niemand. Daar let ik juist op.</p>
       </div>
       <div class="card reveal">
         <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20h4v-4h4v-4h4V8h6"/><path d="M3 20v-4"/></svg></div>
@@ -472,7 +542,7 @@ form{background:var(--card);border:1px solid var(--line);border-radius:var(--rad
         </li>
         <li>
           <span class="pico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></span>
-          <span><b>Buiten uw werktijden</b><span>Vroeg in de ochtend, in de avond of in het weekend — wanneer het uw mensen het minst in de weg zit.</span></span>
+          <span><b>Buiten uw werktijden</b><span>Vroeg in de ochtend, in de avond of in het weekend, wanneer het uw mensen het minst in de weg zit.</span></span>
         </li>
         <li>
           <span class="pico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7.5 3.5v5c0 4.6-3.1 8.4-7.5 9.5-4.4-1.1-7.5-4.9-7.5-9.5v-5z"/><path d="M9 12l2 2 4-4"/></svg></span>
@@ -501,9 +571,9 @@ form{background:var(--card);border:1px solid var(--line);border-radius:var(--rad
     <div class="reveal over">
       <span class="eyebrow">Over mij</span>
       <h2 style="margin-top:14px">Persoonlijk, praktisch en met een eigen bedrijf</h2>
-      <p style="margin-top:18px">Ik ben Lydia van der Vegt en vanuit Zoetermeer verzorg ik de schoonmaak van bedrijfspanden en gemeenschappelijke ruimtes. <strong>Interieur &amp; Schoonmaak Lydia van der Vegt</strong> is mijn eigen bedrijf — dat betekent korte lijnen: u belt mij, en u krijgt mij.</p>
+      <p style="margin-top:18px">Ik ben Lydia van der Vegt en vanuit Zoetermeer verzorg ik de schoonmaak van bedrijfspanden en gemeenschappelijke ruimtes. <strong>Interieur &amp; Schoonmaak Lydia van der Vegt</strong> is mijn eigen bedrijf. Dat betekent korte lijnen: u belt mij, en u krijgt mij.</p>
       <p>Ik werk met mijn <strong>eigen schoonmaakmiddelen en eigen apparatuur</strong>. Dat scheelt u een voorraadkast, en het betekent dat ik altijd met materiaal werk waarvan ik weet wat het doet op welke vloer.</p>
-      <p>Wat de schoonmaak kost, bespreken we op het moment dat u een offerte wilt. Dan weet ik namelijk om welke ruimtes het gaat en hoe vaak ik kom — en kan ik u een eerlijk bedrag noemen in plaats van een slag in de lucht.</p>
+      <p>Wat de schoonmaak kost, bespreken we op het moment dat u een offerte wilt. Dan weet ik namelijk om welke ruimtes het gaat en hoe vaak ik kom, en kan ik u een eerlijk bedrag noemen in plaats van een slag in de lucht.</p>
       <div class="gebied">
         <span>Zoetermeer</span>
         <span>Den Haag</span>
@@ -526,19 +596,19 @@ form{background:var(--card);border:1px solid var(--line);border-radius:var(--rad
       <ul class="gegevens">
         <li>
           <span class="gico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6.5 3h3l1.5 4-2 1.5a12 12 0 0 0 5.5 5.5l1.5-2 4 1.5v3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.5 5.2 2 2 0 0 1 6.5 3z"/></svg></span>
-          <span><span class="lbl">Telefoon</span><span class="val"><a href="tel:+31614623023">06 - 14 62 30 23</a></span></span>
+          <span class="tekst"><span class="lbl">Telefoon</span><span class="val"><a href="tel:+31614623023">06 - 14 62 30 23</a></span></span>
         </li>
         <li>
           <span class="gico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6.5L12 13l8.5-6.5"/></svg></span>
-          <span><span class="lbl">E-mail</span><span class="val"><a href="mailto:lydiavandervegt@icloud.com">lydiavandervegt@icloud.com</a></span></span>
+          <span class="tekst"><span class="lbl">E-mail</span><span class="val"><a href="mailto:lydiavandervegt@icloud.com">lydiavandervegt@icloud.com</a></span></span>
         </li>
         <li>
           <span class="gico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg></span>
-          <span><span class="lbl">Werkgebied</span><span class="val">Zoetermeer en omgeving</span></span>
+          <span class="tekst"><span class="lbl">Werkgebied</span><span class="val">Zoetermeer en omgeving</span></span>
         </li>
         <li>
           <span class="gico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V7l8-3 8 3v13"/><path d="M9 20v-6h6v6"/><path d="M3 20h18"/></svg></span>
-          <span><span class="lbl">KvK-nummer</span><span class="val">24021368</span></span>
+          <span class="tekst"><span class="lbl">KvK-nummer</span><span class="val">24021368</span></span>
         </li>
       </ul>
     </div>
@@ -635,11 +705,17 @@ form{background:var(--card);border:1px solid var(--line);border-radius:var(--rad
   document.querySelectorAll('#navLinks a').forEach(function(a){
     a.addEventListener('click',function(){header.classList.remove('open');menu.setAttribute('aria-expanded','false');});
   });
-  // In beeld schuiven
-  var io=new IntersectionObserver(function(entries){
-    entries.forEach(function(e){ if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);} });
-  },{threshold:.12,rootMargin:'0px 0px -40px 0px'});
-  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+  // In beeld schuiven. Zonder IntersectionObserver alles meteen tonen,
+  // anders blijft de hele pagina onzichtbaar.
+  var blokken=document.querySelectorAll('.reveal');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);} });
+    },{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+    blokken.forEach(function(el){io.observe(el);});
+  }else{
+    blokken.forEach(function(el){el.classList.add('in');});
+  }
   // Jaartal
   document.getElementById('jaar').textContent = new Date().getFullYear();
 })();

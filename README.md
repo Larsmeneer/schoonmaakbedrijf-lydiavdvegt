@@ -12,7 +12,7 @@ Open het bestand in je browser om het te bekijken.
 
 ## Hosting via GitHub Pages
 
-De site is één statisch bestand, dus GitHub Pages is genoeg (en gratis):
+De site is één statisch bestand, dus GitHub Pages is genoeg, en gratis:
 
 1. Repo → **Settings** → **Pages**
 2. Source: **Deploy from a branch**, branch `main`, map `/ (root)`
@@ -31,4 +31,4 @@ Voor een eigen domein (bijvoorbeeld `interieurenschoonmaak.nl`): zet de domeinna
 
 - Het echte logobestand in de pagina zetten (nu staat er een SVG-nabouw van het beeldmerk)
 - Contactformulier: nu een `mailto:`-link. Wil Lydia een net formulier, dan kan dat via
-  Formspree of Web3Forms zonder eigen server — GitHub Pages kan zelf geen post verwerken.
+  Formspree of Web3Forms zonder eigen server. GitHub Pages kan zelf geen post verwerken.
