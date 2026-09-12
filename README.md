@@ -15,10 +15,16 @@ bestandssysteem, open dan `voorwaarden/index.html` rechtstreeks.
 | `index.html` | de startpagina |
 | `voorwaarden/index.html` | algemene voorwaarden, te bereiken als `/voorwaarden/` |
 | `privacy/index.html` | privacyverklaring, te bereiken als `/privacy/` |
+| `404.html` | de pagina voor een adres dat niet bestaat |
 | `stijl.css` | de opmaak van alle drie de pagina's |
 | `script.js` | licht/donker, mobiel menu, in beeld schuiven |
 | `favicon.svg` | het tabblad-icoon |
 | `apple-touch-icon.png` | icoon voor een snelkoppeling op iOS (180x180) |
+
+`404.html` staat er bewust alleen voor: GitHub Pages toont die pagina ook op een diep
+adres als `/een/diep/adres/`, terwijl de adresbalk dat pad vasthoudt. Een verwijzing naar
+`stijl.css` zou daar op de verkeerde plek zoeken, dus de opmaak en het beeldmerk staan in
+die pagina zelf. Pas je de huisstijl aan, werk die pagina dan apart bij.
 
 De header, het beeldmerk en de footer van de twee tekstpagina's zijn gegenereerd uit
 `index.html`, zodat ze niet uit elkaar gaan lopen. Pas je die aan op de startpagina,
