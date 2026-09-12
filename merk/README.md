@@ -1,6 +1,9 @@
 # Merkbestanden
 
-Opslag van merkmateriaal. Niets hiervan wordt door de website gebruikt. Die heeft zijn eigen `favicon.svg`
+Opslag van merkmateriaal. Niets hiervan wordt door de website gebruikt, en deze map
+wordt ook niet meegepubliceerd: de workflow wist hem in de build voordat de site naar
+GitHub Pages gaat. De bestanden blijven gewoon in de repo staan, dus je kunt ze
+pullen wanneer je ze nodig hebt. Die heeft zijn eigen `favicon.svg`
 en `apple-touch-icon.png` in de hoofdmap.
 
 | Bestand | Waarvoor |

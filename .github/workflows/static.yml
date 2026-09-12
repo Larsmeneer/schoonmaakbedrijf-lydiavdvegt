@@ -31,6 +31,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      # De map merk/ is opslag voor logobestanden, geen onderdeel van de site.
+      # Dit wist die map alleen in de werkkopie van deze build, niet in de repo.
+      - name: Merkbestanden niet meepubliceren
+        run: rm -rf merk
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
