@@ -43,7 +43,7 @@ de domeinboer een `CNAME`-record naar `<gebruiker>.github.io`. Vink daarna
 
 ## Gegevens die in de pagina's staan
 
-- Telefoon 06 - 14 62 30 23 · lydiavandervegt@icloud.com
+- Telefoon 06 - 14 62 30 23 · info@schoonmaakbedrijf-lydiavandervegt.nl
 - KvK 24021368 · Bermudablauw 26, 2718 JJ Zoetermeer
 
 ## Laat Lydia dit nalezen
@@ -71,8 +71,13 @@ Twee dingen om echt even te controleren:
    gebruikelijk, maar als ze zekerheid wil, laat een jurist er dan naar kijken.
 
 De privacyverklaring beschrijft de situatie zoals de site nu werkt: geen cookies, geen
-statistieken, hosting bij GitHub Pages en e-mail via iCloud. Verandert een van die
-dingen, dan moet die tekst mee.
+statistieken en hosting bij GitHub Pages. Verandert een van die dingen, dan moet die
+tekst mee.
+
+Bij de overstap naar `info@schoonmaakbedrijf-lydiavandervegt.nl` is de zin over iCloud
+vervangen door een neutrale formulering, omdat niet vaststaat waar die mail binnenkomt.
+Zodra dat bekend is (Microsoft 365 lijkt waarschijnlijk, gezien de Outlook-profielfoto),
+hoort de provider daar met naam genoemd te worden. Dat is een AVG-eis, geen detail.
 
 ## Door Lydia te controleren
 
