@@ -5,6 +5,10 @@ en `apple-touch-icon.png` in de hoofdmap.
 
 | Bestand | Waarvoor |
 | --- | --- |
+| `Lydia logo.png` | het echte logo, 2974x1672, transparante achtergrond |
+| `Lydia logo.eps` | vectorversie, voor drukwerk en borduren |
+| `Lydia logo-1.pdf` | vectorversie als pdf |
+| `Lydia logo.jpg` | kleine versie, staat in CMYK en is dus voor druk, niet voor beeldscherm |
 | `huis-32.png` | 32x32, voor het favicon-veld bij de Microsoft-aanmeldpagina |
 | `huis-32-transparant.png` | zelfde, maar zonder de donkere tegel eronder |
 | `huis-48.png` | 48x48, komt af en toe langs als tweede faviconmaat |
@@ -32,3 +36,13 @@ foto niet rond maar vierkant.
 Op de kleinste weergave (ongeveer 48 pixels, in een berichtenlijst) blijven het huis en
 de flacon herkenbaar en worden de sterren stipjes. Wil je daar iets strakkers, gebruik
 dan `huis-192.png`: alleen het huisje, dat houdt het op elk formaat.
+
+## Over het aangeleverde logo
+
+De PNG is de bruikbare versie voor beeldscherm: hoge resolutie en een transparante
+achtergrond. De JPG staat in CMYK, dat is drukwerkkleur; die geeft op een beeldscherm
+afwijkende kleuren en is hier dus niet de juiste keuze.
+
+Let op bij gebruik op een donkere achtergrond: de bedrijfsnaam in het logo is
+donkerblauw en valt dan weg. Voor de donkere footer en het donkere thema van de site is
+een variant met witte letters nodig.

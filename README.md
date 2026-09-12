@@ -74,10 +74,8 @@ De privacyverklaring beschrijft de situatie zoals de site nu werkt: geen cookies
 statistieken en hosting bij GitHub Pages. Verandert een van die dingen, dan moet die
 tekst mee.
 
-Bij de overstap naar `info@schoonmaakbedrijf-lydiavandervegt.nl` is de zin over iCloud
-vervangen door een neutrale formulering, omdat niet vaststaat waar die mail binnenkomt.
-Zodra dat bekend is (Microsoft 365 lijkt waarschijnlijk, gezien de Outlook-profielfoto),
-hoort de provider daar met naam genoemd te worden. Dat is een AVG-eis, geen detail.
+De e-mail loopt sinds september 2026 via Microsoft 365. Dat staat nu met naam in de
+privacyverklaring, samen met de doorgifteregeling, zoals de AVG voorschrijft.
 
 ## Door Lydia te controleren
 
@@ -87,6 +85,7 @@ staan er nog en zijn nooit bevestigd. Vraag haar even waar ze wel en niet komt.
 
 ## Nog te doen
 
-- Het echte logobestand in de pagina's zetten (nu staat er een SVG-nabouw van het beeldmerk)
+- Het echte logo in de pagina's zetten. Het staat in `merk/`, maar de site gebruikt nog
+  de SVG-nabouw van het beeldmerk. Er is een lichte variant nodig voor de donkere delen.
 - Contactformulier: nu een `mailto:`-link. Wil Lydia een net formulier, dan kan dat via
   Formspree of Web3Forms zonder eigen server. GitHub Pages kan zelf geen post verwerken.
