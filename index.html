@@ -3,344 +3,16 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Interieur &amp; Schoonmaak Lydia van der Vegt | Schoonmaak van bedrijfspanden en centrale ruimtes</title>
-<meta name="description" content="Interieur &amp; Schoonmaak Lydia van der Vegt uit Zoetermeer verzorgt de schoonmaak van bedrijfspanden, centrale hallen, centrale ruimtes en portieken. Eigen schoonmaakmiddelen en eigen apparatuur." />
+<title>Interieur &amp; Schoonmaak Lydia van der Vegt | Schoonmaak in Zoetermeer en omstreken</title>
+<meta name="description" content="Interieur &amp; Schoonmaak Lydia van der Vegt verzorgt de schoonmaak van bedrijfspanden, centrale hallen, centrale ruimtes en portieken in Zoetermeer en omstreken. Eigen schoonmaakmiddelen en eigen apparatuur." />
 <meta name="theme-color" content="#0F1D26" />
 <meta property="og:title" content="Interieur &amp; Schoonmaak Lydia van der Vegt" />
-<meta property="og:description" content="Schoonmaak van bedrijfspanden, centrale hallen, centrale ruimtes en portieken. Eigen middelen, eigen apparatuur." />
+<meta property="og:description" content="Schoonmaak van bedrijfspanden, centrale hallen, centrale ruimtes en portieken in Zoetermeer en omstreken. Eigen middelen, eigen apparatuur." />
 <meta property="og:locale" content="nl_NL" />
 <meta property="og:type" content="website" />
-<style>
-:root{
-  --ink:#0F1D26;
-  --ink-2:#142A36;
-  --paper:#F4F7F9;
-  --paper-2:#E9EFF3;
-  --card:#FFFFFF;
-  --text:#0E1F28;
-  --text-soft:#4C6472;
-  --line:#D5E0E7;
-  --accent:#2C8CA8;
-  --accent-deep:#1E7089;
-  --accent-soft:#DCEEF4;
-  --brand-on-dark:#E8F4F8;
-  --brand-soft-on-dark:#9FC4D2;
-  --line-on-dark:rgba(255,255,255,.14);
-  --shadow:0 1px 2px rgba(14,31,40,.05), 0 12px 32px -12px rgba(14,31,40,.18);
-  --radius:14px;
-  --maxw:1140px;
-  --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
-  --sans:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  --script:"Segoe Script","Brush Script MT","Lucida Handwriting",cursive;
-}
-@media (prefers-color-scheme:dark){
-  :root{
-    --paper:#0B1A22;
-    --paper-2:#0F212B;
-    --card:#132C38;
-    --text:#E6F1F5;
-    --text-soft:#9DB6C2;
-    --line:rgba(255,255,255,.12);
-    --accent:#4FB3D0;
-    --accent-deep:#67C2DC;
-    --accent-soft:#16303C;
-    --shadow:0 1px 2px rgba(0,0,0,.3), 0 20px 40px -18px rgba(0,0,0,.6);
-  }
-}
-:root[data-theme="light"]{
-  --paper:#F4F7F9;--paper-2:#E9EFF3;--card:#FFFFFF;--text:#0E1F28;--text-soft:#4C6472;
-  --line:#D5E0E7;--accent:#2C8CA8;--accent-deep:#1E7089;--accent-soft:#DCEEF4;
-  --shadow:0 1px 2px rgba(14,31,40,.05), 0 12px 32px -12px rgba(14,31,40,.18);
-}
-:root[data-theme="dark"]{
-  --paper:#0B1A22;--paper-2:#0F212B;--card:#132C38;--text:#E6F1F5;--text-soft:#9DB6C2;
-  --line:rgba(255,255,255,.12);--accent:#4FB3D0;--accent-deep:#67C2DC;--accent-soft:#16303C;
-  --shadow:0 1px 2px rgba(0,0,0,.3), 0 20px 40px -18px rgba(0,0,0,.6);
-}
-
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-body{
-  margin:0;background:var(--paper);color:var(--text);
-  font-family:var(--sans);font-size:17px;line-height:1.65;
-  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
-}
-h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.12;text-wrap:balance;margin:0}
-h1{font-size:clamp(34px,5.2vw,56px)}
-h2{font-size:clamp(26px,3.4vw,38px)}
-h3{font-size:20px}
-p{margin:0}
-a{color:inherit}
-img,svg{max-width:100%;display:block}
-.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
-.eyebrow{
-  font-family:var(--sans);font-size:12.5px;font-weight:600;letter-spacing:.18em;
-  text-transform:uppercase;color:var(--accent-deep);display:inline-flex;align-items:center;gap:10px;
-}
-.eyebrow::before{content:"";width:26px;height:1px;background:var(--accent);display:inline-block}
-.eyebrow.op-donker{color:var(--brand-soft-on-dark)}
-.eyebrow.op-donker::before{background:var(--brand-soft-on-dark)}
-.lead{font-size:19px;color:var(--text-soft);margin-top:18px;max-width:56ch}
-
-/* ---------- Knoppen ---------- */
-.btn{
-  display:inline-flex;align-items:center;gap:9px;font-family:var(--sans);font-weight:600;
-  font-size:15.5px;padding:13px 22px;border-radius:999px;text-decoration:none;cursor:pointer;
-  border:1px solid transparent;transition:transform .15s ease, background .2s ease, box-shadow .2s ease;
-}
-.btn:hover{transform:translateY(-1px)}
-.btn-primary{background:var(--accent-deep);color:#fff;box-shadow:0 8px 20px -10px rgba(30,112,137,.8)}
-.btn-primary:hover{background:var(--accent)}
-:root[data-theme="dark"] .btn-primary,
-:root:not([data-theme="light"]) .btn-primary{color:#08171E}
-@media (prefers-color-scheme:light){:root:not([data-theme="dark"]) .btn-primary{color:#fff}}
-.btn-ghost{border-color:var(--line);color:var(--text);background:transparent}
-.btn-ghost:hover{border-color:var(--accent);color:var(--accent-deep)}
-.btn-on-dark{background:#fff;color:var(--ink)}
-.btn-on-dark:hover{background:var(--brand-on-dark)}
-.btn-outline-dark{border-color:var(--line-on-dark);color:var(--brand-on-dark)}
-.btn-outline-dark:hover{border-color:var(--brand-on-dark);color:#fff}
-.btn svg{width:17px;height:17px;flex:none}
-
-/* ---------- Header ---------- */
-.header{position:sticky;top:0;z-index:50;background:var(--paper);
-  border-bottom:1px solid var(--line)}
-@supports (backdrop-filter:blur(4px)){
-  .header{background:color-mix(in srgb, var(--paper) 86%, transparent);backdrop-filter:saturate(160%) blur(10px)}
-}
-.nav{display:flex;align-items:center;gap:22px;height:76px}
-.brand{display:flex;align-items:center;gap:12px;text-decoration:none;flex:none}
-.brand .mark{width:40px;height:40px;flex:none}
-.brand .naam{display:flex;flex-direction:column;line-height:1.2}
-.brand .naam .b1{font-size:12.5px;font-weight:600;letter-spacing:.03em;color:var(--text)}
-.brand .naam .b2{font-family:var(--script);font-size:16px;color:var(--accent-deep)}
-.nav-links{display:flex;gap:26px;margin-left:auto;font-size:15px}
-.nav-links a{text-decoration:none;color:var(--text-soft);font-weight:500}
-.nav-links a:hover{color:var(--accent-deep)}
-.nav-cta{display:flex;align-items:center;gap:10px}
-.theme-toggle{width:38px;height:38px;border-radius:999px;border:1px solid var(--line);background:transparent;
-  color:var(--text-soft);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;padding:0}
-.theme-toggle:hover{color:var(--accent-deep);border-color:var(--accent)}
-.theme-toggle svg{width:18px;height:18px}
-.menu-btn{display:none;width:42px;height:38px;border:1px solid var(--line);background:transparent;
-  border-radius:10px;cursor:pointer;flex-direction:column;justify-content:center;align-items:center;gap:4px;padding:0}
-.menu-btn span{display:block;width:17px;height:1.6px;background:var(--text)}
-@media (max-width:960px){
-  .nav-links{position:absolute;top:76px;left:0;right:0;background:var(--card);border-bottom:1px solid var(--line);
-    flex-direction:column;gap:0;padding:8px 24px 18px;display:none}
-  .header.open .nav-links{display:flex}
-  .nav-links a{padding:12px 0;border-bottom:1px solid var(--line)}
-  .nav-links a:last-child{border-bottom:0}
-  .menu-btn{display:flex}
-  .nav-cta .btn-primary{display:none}
-}
-
-/* ---------- Hero ---------- */
-.hero{padding:76px 0 84px;background:
-  radial-gradient(1000px 420px at 12% -12%, var(--accent-soft), transparent 62%),
-  var(--paper)}
-.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
-.hero h1{margin-top:16px}
-.hero h1 em{font-style:italic;color:var(--accent-deep)}
-.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
-.hero-meta{display:flex;flex-wrap:wrap;gap:34px;margin-top:38px;padding-top:26px;border-top:1px solid var(--line)}
-.hero-meta .m{display:flex;flex-direction:column}
-.hero-meta .m b{font-family:var(--serif);font-size:22px;color:var(--accent-deep)}
-.hero-meta .m span{font-size:13.5px;color:var(--text-soft)}
-@media (max-width:900px){.hero-grid{grid-template-columns:1fr;gap:40px}.hero{padding:52px 0 60px}}
-
-/* Beeldkaart naast de hero */
-.beeld{position:relative;background:var(--ink);border-radius:22px;padding:34px 30px;color:var(--brand-on-dark);
-  box-shadow:var(--shadow);overflow:hidden}
-.beeld::after{content:"";position:absolute;right:-70px;bottom:-90px;width:260px;height:260px;border-radius:50%;
-  background:radial-gradient(circle at 30% 30%, rgba(79,179,208,.32), transparent 65%)}
-.beeld .groot{width:136px;height:136px;margin:4px auto 18px;position:relative;z-index:1}
-.beeld h3{color:#fff;text-align:center;font-size:21px;position:relative;z-index:1}
-.beeld .onder{text-align:center;font-family:var(--script);font-size:22px;color:#67C2DC;
-  margin-top:4px;position:relative;z-index:1}
-.beeld ul{list-style:none;margin:24px 0 0;padding:0;position:relative;z-index:1}
-.beeld li{display:flex;gap:11px;align-items:flex-start;padding:10px 0;border-top:1px solid var(--line-on-dark);
-  font-size:15px;color:var(--brand-on-dark)}
-.beeld li:first-child{border-top:0}
-.beeld li svg{width:17px;height:17px;flex:none;margin-top:4px;color:#4FB3D0}
-
-/* ---------- Secties ---------- */
-section{padding:84px 0}
-@media (max-width:900px){section{padding:60px 0}}
-.sec-head{max-width:60ch;margin-bottom:44px}
-.sec-head h2{margin-top:14px}
-.sec-head p{margin-top:14px;color:var(--text-soft)}
-.donker{background:var(--ink);color:var(--brand-on-dark)}
-.donker h2,.donker h3{color:#fff}
-.donker .sec-head p{color:var(--brand-soft-on-dark)}
-
-/* Diensten */
-.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-@media (max-width:900px){.cards{grid-template-columns:1fr 1fr}}
-@media (max-width:620px){.cards{grid-template-columns:1fr}}
-.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:26px 24px;
-  box-shadow:var(--shadow);transition:transform .18s ease, border-color .18s ease}
-.card:hover{transform:translateY(-3px);border-color:var(--accent)}
-.card .ico{width:44px;height:44px;border-radius:12px;background:var(--accent-soft);color:var(--accent-deep);
-  display:flex;align-items:center;justify-content:center;margin-bottom:16px}
-.card .ico svg{width:23px;height:23px}
-.card h3{margin-bottom:8px}
-.card p{color:var(--text-soft);font-size:15.5px}
-
-/* Aanpak / stappen */
-.stappen{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;counter-reset:stap}
-@media (max-width:900px){.stappen{grid-template-columns:1fr 1fr}}
-@media (max-width:560px){.stappen{grid-template-columns:1fr}}
-.stap{padding-top:22px;border-top:2px solid var(--line)}
-.stap::before{counter-increment:stap;content:"0" counter(stap);font-family:var(--serif);font-size:15px;
-  color:var(--accent-deep);letter-spacing:.06em}
-.stap h3{margin:8px 0;font-size:18px}
-.stap p{color:var(--text-soft);font-size:15px}
-
-/* Waarom */
-.waarom-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
-@media (max-width:900px){.waarom-grid{grid-template-columns:1fr;gap:34px}}
-.punten{list-style:none;margin:0;padding:0}
-.punten li{display:flex;gap:14px;padding:16px 0;border-top:1px solid var(--line-on-dark)}
-.punten li:first-child{border-top:0}
-.punten .pico{width:34px;height:34px;border-radius:10px;background:rgba(79,179,208,.16);color:#4FB3D0;
-  display:flex;align-items:center;justify-content:center;flex:none}
-.punten .pico svg{width:18px;height:18px}
-.punten b{display:block;color:#fff;font-weight:600;font-size:16px}
-.punten span{color:var(--brand-soft-on-dark);font-size:15px}
-
-/* Over */
-.over-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:56px;align-items:center}
-@media (max-width:900px){.over-grid{grid-template-columns:1fr;gap:34px}}
-.portret{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:34px;box-shadow:var(--shadow);text-align:center}
-.portret .groot{width:118px;height:118px;margin:0 auto 18px}
-.portret .naam{font-family:var(--script);font-size:27px;color:var(--accent-deep)}
-.portret .rol{font-size:12.5px;color:var(--text-soft);letter-spacing:.12em;text-transform:uppercase;margin-top:6px}
-.portret .quote{margin-top:22px;padding-top:22px;border-top:1px solid var(--line);font-family:var(--serif);
-  font-style:italic;font-size:17.5px;color:var(--text)}
-.over p + p{margin-top:16px}
-.over p{color:var(--text-soft)}
-.over p strong{color:var(--text)}
-
-/* Werkgebied */
-.gebied{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
-.gebied span{border:1px solid var(--line);border-radius:999px;padding:7px 16px;font-size:14.5px;color:var(--text-soft);background:var(--card)}
-
-/* Contact */
-.contact{background:var(--paper-2)}
-.contact .wrap{max-width:1280px}
-.contact-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:60px}
-@media (max-width:900px){.contact-grid{grid-template-columns:1fr;gap:34px}}
-.contact .lead{max-width:62ch}
-.gegevens{list-style:none;margin:30px 0 0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:14px}
-@media (max-width:1080px) and (min-width:901px){.gegevens{grid-template-columns:1fr}}
-@media (max-width:600px){.gegevens{grid-template-columns:1fr}}
-.gegevens li{display:flex;gap:14px;align-items:center;padding:16px 18px;background:var(--card);
-  border:1px solid var(--line);border-radius:12px;min-width:0}
-.gegevens .gico{width:40px;height:40px;border-radius:11px;background:var(--accent-soft);color:var(--accent-deep);
-  display:flex;align-items:center;justify-content:center;flex:none}
-.gegevens .gico svg{width:19px;height:19px}
-.gegevens .tekst{min-width:0}
-.gegevens .lbl{font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-soft);display:block}
-.gegevens .val{font-size:16.5px;font-weight:600;display:block;overflow-wrap:anywhere}
-.gegevens .val a{text-decoration:none}
-.gegevens .val a:hover{color:var(--accent-deep)}
-form{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow)}
-.veld{margin-bottom:16px}
-.veld label{display:block;font-size:13.5px;font-weight:600;margin-bottom:6px}
-.veld input,.veld textarea{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:10px;
-  background:var(--paper);color:var(--text);font:inherit;font-size:15.5px}
-.veld input:focus,.veld textarea:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
-.veld textarea{min-height:118px;resize:vertical}
-.rij{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-@media (max-width:560px){.rij{grid-template-columns:1fr}}
-.form-note{margin-top:14px;font-size:14px;color:var(--text-soft)}
-
-/* Footer */
-.footer{background:var(--ink);color:var(--brand-soft-on-dark);padding:56px 0 30px;font-size:15px}
-.footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:40px}
-@media (max-width:760px){.footer-grid{grid-template-columns:1fr;gap:28px}}
-.footer h4{color:#fff;font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 14px;font-weight:600}
-.footer a{color:var(--brand-soft-on-dark);text-decoration:none;display:block;padding:3px 0}
-.footer a:hover{color:#fff}
-.footer .merk{display:flex;align-items:center;gap:12px;margin-bottom:16px}
-.footer .merk svg{width:44px;height:44px;flex:none}
-.footer .merk .b1{color:#fff;font-weight:600;font-size:13.5px;display:block}
-.footer .merk .b2{font-family:var(--script);font-size:18px;color:#67C2DC}
-.footer .adres{font-style:normal;line-height:1.7}
-.footer .slot{margin-top:40px;padding-top:20px;border-top:1px solid var(--line-on-dark);
-  display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;font-size:13.5px}
-
-/* Reveal */
-.reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease, transform .6s ease}
-.reveal.in{opacity:1;transform:none}
-@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
-
-/* ==========================================================
-   Mobiel. Deze blokken staan bewust onderaan, zodat ze de
-   regels hierboven overschrijven en niet andersom.
-   ========================================================== */
-html,body{overflow-x:hidden;max-width:100%}
-a[href^="tel:"],a[href^="mailto:"]{overflow-wrap:anywhere}
-
-@media (max-width:760px){
-  body{font-size:16px}
-  section{padding:52px 0}
-  .wrap{padding:0 20px}
-  .lead{font-size:17.5px}
-  .hero{padding:40px 0 52px}
-  .hero-actions .btn{flex:1 1 auto;justify-content:center}
-  .hero-meta{gap:18px;display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr))}
-  .hero-meta .m b{font-size:19px}
-  .beeld{padding:26px 22px;border-radius:18px}
-  .beeld .groot{width:104px;height:104px}
-  .sec-head{margin-bottom:32px}
-  .card{padding:22px 20px}
-  .waarom-grid,.over-grid,.contact-grid{gap:30px}
-  .portret{padding:26px 22px}
-  .portret .groot{width:96px;height:96px}
-  form{padding:22px 20px}
-  .gegevens li{padding:14px 16px}
-  .footer{padding:44px 0 26px}
-}
-
-@media (max-width:480px){
-  .wrap{padding:0 16px}
-  .nav{height:68px;gap:12px}
-  .nav-links{top:68px}
-  .brand .mark{width:34px;height:34px}
-  .brand .naam .b1{font-size:10.5px;letter-spacing:.02em}
-  .brand .naam .b2{font-size:14px}
-  .theme-toggle,.menu-btn{width:42px;height:42px}
-  .hero h1{font-size:32px}
-  .hero-actions{gap:10px}
-  .hero-actions .btn,.waarom-grid .btn{width:100%;justify-content:center}
-  .eyebrow{font-size:11.5px;letter-spacing:.14em}
-  .gebied span{font-size:13.5px;padding:6px 13px}
-  .footer .slot{flex-direction:column;gap:6px}
-}
-
-/* Hele smalle toestellen (vanaf 320px): de merknaam mag krimpen,
-   zodat de menuknop niet buiten beeld valt. */
-@media (max-width:400px){
-  .nav{gap:8px}
-  .brand{flex:0 1 auto;min-width:0;gap:9px}
-  .brand .naam{min-width:0}
-  .brand .naam .b1{font-size:9.5px}
-  .brand .naam .b2{font-size:13px}
-  .brand .naam .b1,.brand .naam .b2{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .nav-cta{margin-left:auto;flex:none}
-  .theme-toggle,.menu-btn{width:38px;height:38px}
-}
-
-/* Landschapsmodus op een telefoon: het sticky menu mag niet
-   het halve scherm opeten. */
-@media (max-height:520px) and (orientation:landscape){
-  .header{position:static}
-  .nav-links{top:auto}
-}
-</style>
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="stylesheet" href="stijl.css" />
 <noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
 </head>
 <body>
@@ -407,7 +79,7 @@ a[href^="tel:"],a[href^="mailto:"]{overflow-wrap:anywhere}
     <div class="reveal">
       <span class="eyebrow">Schoonmaak &amp; interieurverzorging · Zoetermeer</span>
       <h1>Een pand dat <em>klopt</em> vanaf de voordeur.</h1>
-      <p class="lead">Ik verzorg de schoonmaak van bedrijfspanden, centrale hallen, centrale ruimtes en portieken. Met eigen schoonmaakmiddelen en eigen apparatuur. U hoeft niets klaar te zetten.</p>
+      <p class="lead">Ik werk in Zoetermeer en omstreken en verzorg de schoonmaak van bedrijfspanden, centrale hallen, centrale ruimtes en portieken. Met eigen schoonmaakmiddelen en eigen apparatuur. U hoeft niets klaar te zetten.</p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="#contact">Vraag een offerte aan</a>
         <a class="btn btn-ghost" href="#werk">Bekijk de werkzaamheden</a>
@@ -415,7 +87,7 @@ a[href^="tel:"],a[href^="mailto:"]{overflow-wrap:anywhere}
       <div class="hero-meta">
         <div class="m"><b>Eigen</b><span>Middelen en apparatuur</span></div>
         <div class="m"><b>Vast</b><span>Altijd hetzelfde gezicht</span></div>
-        <div class="m"><b>Zoetermeer</b><span>en omgeving</span></div>
+        <div class="m"><b>Zoetermeer</b><span>en omstreken</span></div>
       </div>
     </div>
     <div class="reveal">
@@ -571,7 +243,7 @@ a[href^="tel:"],a[href^="mailto:"]{overflow-wrap:anywhere}
     <div class="reveal over">
       <span class="eyebrow">Over mij</span>
       <h2 style="margin-top:14px">Persoonlijk, praktisch en met een eigen bedrijf</h2>
-      <p style="margin-top:18px">Ik ben Lydia van der Vegt en vanuit Zoetermeer verzorg ik de schoonmaak van bedrijfspanden en gemeenschappelijke ruimtes. <strong>Interieur &amp; Schoonmaak Lydia van der Vegt</strong> is mijn eigen bedrijf. Dat betekent korte lijnen: u belt mij, en u krijgt mij.</p>
+      <p style="margin-top:18px">Ik ben Lydia van der Vegt en vanuit Zoetermeer verzorg ik de schoonmaak van bedrijfspanden en gemeenschappelijke ruimtes in Zoetermeer en omstreken. <strong>Interieur &amp; Schoonmaak Lydia van der Vegt</strong> is mijn eigen bedrijf. Dat betekent korte lijnen: u belt mij, en u krijgt mij.</p>
       <p>Ik werk met mijn <strong>eigen schoonmaakmiddelen en eigen apparatuur</strong>. Dat scheelt u een voorraadkast, en het betekent dat ik altijd met materiaal werk waarvan ik weet wat het doet op welke vloer.</p>
       <p>Wat de schoonmaak kost, bespreken we op het moment dat u een offerte wilt. Dan weet ik namelijk om welke ruimtes het gaat en hoe vaak ik kom, en kan ik u een eerlijk bedrag noemen in plaats van een slag in de lucht.</p>
       <div class="gebied">
@@ -580,7 +252,7 @@ a[href^="tel:"],a[href^="mailto:"]{overflow-wrap:anywhere}
         <span>Leidschendam-Voorburg</span>
         <span>Pijnacker-Nootdorp</span>
         <span>Bleiswijk</span>
-        <span>Omgeving in overleg</span>
+        <span>Verder in overleg</span>
       </div>
     </div>
   </div>
@@ -604,7 +276,7 @@ a[href^="tel:"],a[href^="mailto:"]{overflow-wrap:anywhere}
         </li>
         <li>
           <span class="gico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg></span>
-          <span class="tekst"><span class="lbl">Werkgebied</span><span class="val">Zoetermeer en omgeving</span></span>
+          <span class="tekst"><span class="lbl">Werkgebied</span><span class="val">Zoetermeer en omstreken</span></span>
         </li>
         <li>
           <span class="gico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V7l8-3 8 3v13"/><path d="M9 20v-6h6v6"/><path d="M3 20h18"/></svg></span>
@@ -659,7 +331,7 @@ a[href^="tel:"],a[href^="mailto:"]{overflow-wrap:anywhere}
             <span class="b2">Lydia van der Vegt</span>
           </span>
         </div>
-        <p style="max-width:38ch">Schoonmaak van bedrijfspanden, centrale hallen, centrale ruimtes en portieken in Zoetermeer en omgeving.</p>
+        <p style="max-width:38ch">Schoonmaak van bedrijfspanden, centrale hallen, centrale ruimtes en portieken in Zoetermeer en omstreken.</p>
       </div>
       <div>
         <h4>Contact</h4>
@@ -681,44 +353,15 @@ a[href^="tel:"],a[href^="mailto:"]{overflow-wrap:anywhere}
     </div>
     <div class="slot">
       <span>&copy; <span id="jaar">2026</span> Interieur &amp; Schoonmaakbedrijf Lydia van der Vegt</span>
-      <span>KvK 24021368</span>
+      <span class="slot-links">
+        <a href="voorwaarden.html">Algemene voorwaarden</a>
+        <a href="privacy.html">Privacyverklaring</a>
+        <span>KvK 24021368</span>
+      </span>
     </div>
   </div>
 </footer>
 
-<script>
-(function(){
-  // Licht/donker
-  var root=document.documentElement, btn=document.getElementById('themeToggle');
-  btn.addEventListener('click',function(){
-    var cur=root.getAttribute('data-theme');
-    var next = cur ? (cur==='dark'?'light':'dark')
-      : (window.matchMedia('(prefers-color-scheme: dark)').matches?'light':'dark');
-    root.setAttribute('data-theme',next);
-  });
-  // Menu op mobiel
-  var header=document.getElementById('header'), menu=document.getElementById('menuBtn');
-  menu.addEventListener('click',function(){
-    var open=header.classList.toggle('open');
-    menu.setAttribute('aria-expanded', open?'true':'false');
-  });
-  document.querySelectorAll('#navLinks a').forEach(function(a){
-    a.addEventListener('click',function(){header.classList.remove('open');menu.setAttribute('aria-expanded','false');});
-  });
-  // In beeld schuiven. Zonder IntersectionObserver alles meteen tonen,
-  // anders blijft de hele pagina onzichtbaar.
-  var blokken=document.querySelectorAll('.reveal');
-  if('IntersectionObserver' in window){
-    var io=new IntersectionObserver(function(entries){
-      entries.forEach(function(e){ if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);} });
-    },{threshold:.12,rootMargin:'0px 0px -40px 0px'});
-    blokken.forEach(function(el){io.observe(el);});
-  }else{
-    blokken.forEach(function(el){el.classList.add('in');});
-  }
-  // Jaartal
-  document.getElementById('jaar').textContent = new Date().getFullYear();
-})();
-</script>
+<script src="script.js" defer></script>
 </body>
 </html>

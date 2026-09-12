@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Interieur en Schoonmaak Lydia van der Vegt">
+  <title>Interieur &amp; Schoonmaak Lydia van der Vegt</title>
+  <rect width="64" height="64" rx="14" fill="#0F1D26"/>
+  <!-- huis, vereenvoudigd zodat het ook op 16 pixels leesbaar blijft -->
+  <path d="M10 31 L28 16 L46 31 Z" fill="#2C8CA8"/>
+  <path d="M14 30 h28 v20 a2 2 0 0 1 -2 2 h-24 a2 2 0 0 1 -2 -2 z" fill="#2C8CA8"/>
+  <rect x="19" y="34" width="8" height="8" rx="1" fill="#0F1D26"/>
+  <rect x="30" y="34" width="8" height="8" rx="1" fill="#0F1D26"/>
+  <rect x="19" y="45" width="8" height="7" rx="1" fill="#0F1D26"/>
+  <rect x="30" y="45" width="8" height="7" rx="1" fill="#0F1D26"/>
+  <!-- glans -->
+  <path d="M50 11 l2.6 7 l7 2.6 l-7 2.6 l-2.6 7 l-2.6 -7 l-7 -2.6 l7 -2.6 z" fill="#EAF6FA"/>
+</svg>
