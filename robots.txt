@@ -1,0 +1,5 @@
+# Alles mag geïndexeerd worden.
+User-agent: *
+Allow: /
+
+Sitemap: https://schoonmaakbedrijf-lydiavandervegt.nl/sitemap.xml
