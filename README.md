@@ -44,7 +44,7 @@ de domeinboer een `CNAME`-record naar `<gebruiker>.github.io`. Vink daarna
 ## Gegevens die in de pagina's staan
 
 - Telefoon 06 - 14 62 30 23 · info@schoonmaakbedrijf-lydiavandervegt.nl
-- KvK 24021368 · Bermudablauw 26, 2718 JJ Zoetermeer
+- KvK 42021368 · Bermudablauw 26, 2718 JJ Zoetermeer
 
 ## Laat Lydia dit nalezen
 
